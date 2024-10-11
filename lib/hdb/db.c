@@ -37,7 +37,7 @@
 
 #if defined(HAVE_DB_185_H)
 #include <db_185.h>
-#elif defined(HAVE_DB_H)
+#elif defined(HAVE_DBHEADER) || defined(HAVE_DB_H)
 #include <db.h>
 #endif
 
