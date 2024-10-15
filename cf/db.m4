@@ -54,6 +54,7 @@ AS_IF([test "x$with_berkeley_db" != xno],
 	           db5/db.h				\
 	           db4/db.h				\
 	           db3/db.h				\
+	           db_185.h				\
 	           db.h					\
     ])])
 
